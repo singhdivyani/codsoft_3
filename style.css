@@ -1,0 +1,244 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins';
+}
+
+/*----Home----*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(18, 18, 62);
+    margin: 35px;
+
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 23px 23px;
+}
+
+nav div portfolio {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(144, 144, 232);
+    font-size: 1.1rem;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(135 212 0);
+    height: 1.2px;
+    margin: 0 80px 0 80px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.leftsection .buttons {
+    padding: 50px 0;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftsection .btn a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.purple {
+    color: rgb(135 212 0);
+    font-family: auto;
+    font-size: 60px;
+}
+
+/*-----ABOUT-------*/
+#about {
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col1 {
+    flex-basis: 40%;
+}
+
+.col1 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.col2 {
+    flex-basis: 60%;
+    padding: 0%;
+    text-align: left;
+}
+
+.subtitle {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.text-gray {
+    color: gray;
+    margin: 20px;
+}
+
+
+#element {
+    color: rgb(135 212 0);
+
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 81vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    margin: 0 8vw;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
+/*-----Contact------*/
+.subtitle{
+    margin: 0 80px;
+}
+.mail{
+    margin: 0 80px;
+}
+.num{
+    margin: 0 80px;
+}
+.icons{
+    margin: 0 40px;
+}
+.icons ul li img{
+    margin: 10px 35px;
+    width: 2%;
+}
+/*------------------footer----------------*/
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px;
+}
